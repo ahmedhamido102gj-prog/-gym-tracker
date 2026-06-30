@@ -4,17 +4,14 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
-// 1. روح على https://console.firebase.google.com
-// 2. أنشئ مشروع جديد
-// 3. روح Project Settings > Your apps > Web app
-// 4. انسخ الـ config هنا:
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID",
+  apiKey: "AIzaSyAI52V_AnyOnV7LKCmrzZ6yYggUdMUOLVA",
+  authDomain: "gymtracker-bde04.firebaseapp.com",
+  projectId: "gymtracker-bde04",
+  storageBucket: "gymtracker-bde04.firebasestorage.app",
+  messagingSenderId: "795243762973",
+  appId: "1:795243762973:web:46201315b791cc7013bdf4",
+  measurementId: "G-3G43T00S32",
 };
 
 const app = initializeApp(firebaseConfig);
