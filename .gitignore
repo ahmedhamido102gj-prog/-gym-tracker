@@ -11,3 +11,5 @@ web-build/
 web-build/
 .env
 .env.local
+
+.vercel
